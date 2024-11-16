@@ -83,7 +83,7 @@ player = Player('rocket.png',win_width//2 ,win_height -200,10,65,65)
 
 monsters = sprite.Group()
 bullets = sprite.Group()
-
+#прикол
 last_fire = 0
 for i in range(5):
     monsters.add( Enemy('ufo.png',  randint(150, win_width -150) ,randint(-250,-30),randint(3,5),45,45))
