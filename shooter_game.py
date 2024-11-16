@@ -57,7 +57,7 @@ class Bullet(GameSprite):
         if self.rect.y < 5:
             self.kill()
 
-    
+#ок    
 score = 0
 lost = 0
 window = display.set_mode((0, 0),FULLSCREEN)
